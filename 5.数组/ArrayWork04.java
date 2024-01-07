@@ -12,11 +12,9 @@ public class ArrayWork04 {
         for (int i = 0; i < arr.length; i++) {
             // System.out.print(arr[i] + "\t");
             if ((arr[i] % 10 == 8) || arr[i] / 10 == 8) {
-                System.out.println("åŒ…å«8çš„æ•°å­—æœ‰ï¼š" + arr[i]);
+                System.out.println("°üº¬8µÄÊý×ÖÓÐ£º" + arr[i]);
             }
         }
-
-        System.out.println();
         for (int i = arr.length - 1; i >= 0; i--) {
             System.out.print(arr[i] + "\t");
             sum += arr[i];
@@ -27,7 +25,7 @@ public class ArrayWork04 {
             
         }
         System.out.println("sum = " + (sum / arr.length));
-        System.out.println("æœ€å¤§æ•°æ˜¯ï¼š" + max + "ï¼Œä¸‹æ ‡æ˜¯" + maxIndex);
+        System.out.println("×î´óÊýÊÇ£º" + max + "£¬ÏÂ±êÊÇ" + maxIndex);
 
     }
 }
